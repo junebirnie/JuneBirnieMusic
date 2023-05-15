@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body {
+    background-color: black;
+    color: red
+}
+#header{
+    padding: 10px 10%;
+}
+#navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLi{
+    display: inline-block;
+}
+.navLiA{
+    color: rgb(200, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+.navLiA::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff0000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.navLiA:hover::after{
+    width: 100%;
+}
+.headerText{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    background-color: black;
+    color: rgb(145, 0, 0);
+}
+.embededVideo{
+    margin: 2%;
+}
+.aboutRow{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    .aboutColumn1{
+        flex-basis: 35%;
+    }
+    .aboutColumn2{
+        flex-basis: 60%;
+        justify-content: right;
+        padding: 30px;
+    }
+    #junePhoto1{
+        width: 80%;
+    }
+.musicRow{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    .musicColumn1{
+        flex-basis: 60%;
+        padding: 30px;
+    }
+    .musicColumn2{
+        flex-basis: 40%;
+        justify-content: right;
+    }
+    #junePhoto2{
+        width: 80%;
+    }
+.contact{
+    width: 80%;
+    margin: 50px auto; 
+}
+.contactHeader{
+    margin: 10px;
+}
+
+.namePhoneEmailLabel {
+    display: flex;
+    flex-direction: row;
+}
+.namePhoneEmailInput{
+    display: flex;
+    flex-direction: row;
+}
+#messageInputDiv{
+    display: flex;
+    flex-direction: column;
+}
+#message{
+    height: 150px;
+    width: 500px;
+}
