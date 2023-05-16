@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <title>June Birnie Music</title>
+        <link rel="stylesheet" href="C:\Users\June Birnie\.vscode\.vscode\JuneBirnieMusicDotCom\Styles\JuneBirnieMusicDotComStyle.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>JuneBirnieMusic.com</h1>
+            <p>Music/Audio Education and Services</p>
+            <br>
+            <div class="container">
+                <nav>
+                    <ul id="navigation">
+                        <li class = navLi><a class=navLiA href="#">Home</a></li>
+                        <li class = navLi><a class=navLiA href="#">Lessons</a></li>
+                        <li class = navLi><a class=navLiA href="#">Music</a></li>
+                        <li class = navLi><a class=navLiA href="#">Contact</a></li>
+                        <li class = navLi><a class=navLiA href="#">Resources</a></li>
+                    </ul>
+                </nav>
+                <div class="headerText">
+                    <p>June Birnie is a Berklee trained jazz guitarist, electronic music producer, 
+                        DJ, and sound designer with experience teaching children, adults and everyone in between.</p>
+                </div>
+                <div class="videos">
+                    <iframe class="embededVideo" width="560" height="315" src="https://www.youtube.com/embed/K71wBHPXmpo" 
+                    title="YouTube video player" frameborder="20" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                    <iframe class="embededVideo" width="560" height="315" src="https://www.youtube.com/embed/tu3pc1Bllps" 
+                    title="YouTube video player" frameborder="20" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                    <iframe class="embededVideo" width="560" height="315" src="https://www.youtube.com/embed/_FeLWsOnn9U" 
+                    title="YouTube video player" frameborder="20" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                    <iframe class="embededVideo" width="560" height="315" src="https://www.youtube.com/embed/LKiLpXJMnJA" 
+                    title="YouTube video player" frameborder="20" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="aboutLessons">
+            <div class="aboutRow">
+                <div class="aboutColumn1">
+                    <img id="junePhoto1" src="C:\Users\June Birnie\Documents\junebirniemusicdotcom\images\junephoto1.jpg" alt="JuneDjPhoto">
+                </div>
+                <div class="aboutColumn2">
+                    <h1>Online Lessons with June</h1>
+                    <p class="aboutMeText">With 8 years of teaching experience in private and classroom settings, 
+                        June's teaching style is flexible, diverse, and covers a wide range of musical disciplines.
+                        She places a high degree of emphasis of a holistic understanding of music as well as acoustics and 
+                        audio.  While guitar is her primary instrument music production is also 
+                        a major passion. Guitar students will often be encouraged to learn the very basics
+                        of recording in order to create a catalog of musical progress. This is great not only 
+                        for the students, but for parents who wish to keep these recordings as cherished memories.
+                    </p>
+                    <br>
+                    <p class="aboutMeText"> Having developed her musicianship under several teachers in formal settings, 
+                        June's curriculum teaches students essential knowledge relevant to all instruments including reading 
+                        sheet music, ear training, and music theory all while learning songs that they know and love. 
+                        This will give students the necessary skills often 
+                        sought out by band teachers, ensembles, and music schools. But more importantly, 
+                        this knowledge will allow students to effectively communicate with other musicians, giving
+                        them a greater ability to express their musical intent.
+                    </p>
+                    <br>
+                    <p class="aboutMeText">June is also willing and able to cater her lessons to the specific needs of individual students
+                        including disability accomodations both physical and mental. Students can feel safe knowing their their needs, 
+                        tastes, goals, and identites will be respected.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="music">
+            <div class="musicRow">
+                <div calss="musicColumn1">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4dmeuzQMwaZ7FDMu0bl2E6?utm_source=generator" 
+                    width="250%" height="352" frameBorder="0" allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div class="musicColumn2">
+                    <img id="junePhoto2" src="C:\Users\June Birnie\Documents\junebirniemusicdotcom\images\junephoto2.jpg" alt="JuneDjPhoto">
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h1 class="contactHeader">Contact June</h1>
+                <p>
+                    Please fill out the form below with your name, email address, phone number, 
+                    and a short message describing how I can help you. 
+                </p>
+                <br>
+            <div class="contactBox">
+                <form class="contactForm" action="/submit-form" method="post">
+                    <div class="namePhoneEmailDiv">
+                        <label class="namePhoneEmailLabel" for="name">Name:</label>
+                        <input class="namePhoneEmailInput" type="text" id="name" name="name" required>
+                    
+                        <label class="namePhoneEmailLabel" for="phone">Phone:</label>
+                        <input class="namePhoneEmailInput" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    
+                        <label class="namePhoneEmailLabel" for="email">Email:</label>
+                        <input class="namePhoneEmailInput" type="email" id="email" name="email" required>
+                    </div>
+                    <div id="messageInputDiv">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                  </form>
+            </div>
+        </div>
+    </body>
+    <script></script>
+</html>
