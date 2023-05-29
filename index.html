@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>June Birnie Music</title>
-        <link rel="stylesheet" href="styles\junebirniemusicdotcomstyles.css">
+        <link rel="stylesheet" href="C:\Users\June Birnie\Documents\junebirniemusicdotcom\styles\junebirniemusicdotcomstyles.css">
     </head>
     <body>
         <div id="header">
@@ -46,7 +46,7 @@
         <div class="aboutLessons">
             <div class="aboutRow">
                 <div class="aboutColumn1">
-                    <img id="junePhoto1" src="images\junephoto1.jpg" alt="JuneDjPhoto">
+                    <img id="junePhoto1" src="C:\Users\June Birnie\Documents\junebirniemusicdotcom\images\junephoto1.jpg" alt="JuneDjPhoto">
                 </div>
                 <div class="aboutColumn2">
                     <h1>Online Lessons with June</h1>
@@ -83,37 +83,19 @@
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
                 <div class="musicColumn2">
-                    <img id="junePhoto2" src="images\junephoto2.jpg" alt="JuneDjPhoto">
+                    <img id="junePhoto2" src="C:\Users\June Birnie\Documents\junebirniemusicdotcom\images\junephoto2.jpg" alt="JuneDjPhoto">
                 </div>
             </div>
         </div>
-        <div class="contact">
-            <h1 class="contactHeader">Contact June</h1>
-                <p>
-                    Please fill out the form below with your name, email address, phone number, 
-                    and a short message describing how I can help you. 
-                </p>
-                <br>
-            <div class="contactBox">
-                <form class="contactForm" action="/submit-form" method="post">
-                    <div class="namePhoneEmailDiv">
-                        <label class="namePhoneEmailLabel" for="name">Name:</label>
-                        <input class="namePhoneEmailInput" type="text" id="name" name="name" required>
-                    
-                        <label class="namePhoneEmailLabel" for="phone">Phone:</label>
-                        <input class="namePhoneEmailInput" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                    
-                        <label class="namePhoneEmailLabel" for="email">Email:</label>
-                        <input class="namePhoneEmailInput" type="email" id="email" name="email" required>
-                    </div>
-                    <div id="messageInputDiv">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <input type="submit" value="Submit">
-                  </form>
-            </div>
+        <div class="contactBox">
+            <h1 id="contactHeader">Contact June</h1>
+            <form id ="contactForm" action="https://formsubmit.co/juneunderscorebirnie@gmail.com" method="POST">
+                <input type="text" id="contactNameInput" placeholder="Your Name" required>
+                <input type="text" id="contactEmailInput" placeholder="Emai" required>
+                <input type="text" id="contactPhoneInput" placeholder="Phone Number" required>
+                <textarea id="contactMessageInput" rows="5"></textarea>
+                <button type="submit">Submit</button>
+            </form>
         </div>
-    </body>
-    <script></script>
+    </body>  
 </html>
