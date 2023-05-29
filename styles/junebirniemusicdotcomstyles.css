@@ -45,7 +45,7 @@ body {
     margin-bottom: 5%;
     font-size: 20px;
     background-color: black;
-    color: rgb(145, 0, 0);
+    color: rgb(255, 7, 7);
 }
 .embededVideo{
     margin: 2%;
@@ -82,27 +82,33 @@ body {
     #junePhoto2{
         width: 80%;
     }
-.contact{
-    width: 80%;
-    margin: 50px auto; 
+.contactBox{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(71, 71, 71);
+    display:grid;
+    align-items: center;
+    justify-content: center;
 }
-.contactHeader{
-    margin: 10px;
-}
-
-.namePhoneEmailLabel {
-    display: flex;
-    flex-direction: row;
-}
-.namePhoneEmailInput{
-    display: flex;
-    flex-direction: row;
-}
-#messageInputDiv{
+#contactForm{
+    background: black;
     display: flex;
     flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
 }
-#message{
-    height: 150px;
-    width: 500px;
+#contactHeader{
+    color: #ff0000;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#contactMessageInput{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
 }
